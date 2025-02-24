@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    height:100px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.todo-list{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgray;
+    color:blue;
+    border-radius: 5px;
+    width:50%;
+    box-shadow: 10px 10px lightblue;
+}
+.todo-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.cont-details{
+   
+    
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgray;
+    align-self: center;
+    width:400px;
+    margin: 10px;
+}
