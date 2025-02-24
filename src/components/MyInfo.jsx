@@ -1,6 +1,6 @@
 
 import Reac from "react"
-export default function MyInfo(){
+export default function MyInfo(props){
 
 const firstName="Intikhab"
 const lastName="Bhat"
@@ -17,7 +17,8 @@ let timeOfDay
       
      <div className="todo-item">
       <input type="checkbox"/>
-      <p>Hello {hours}</p>
+      <p>{props.item}</p>
+      <hr/>
       </div>
 
     )
